@@ -1,0 +1,15 @@
+{
+  "domain": "bmw_wallbox",
+  "name": "BMW Wallbox (OCPP)",
+  "codeowners": ["@JoaoPedroBelo"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/JoaoPedroBelo/bmw-wallbox-ha",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/JoaoPedroBelo/bmw-wallbox-ha/issues",
+  "requirements": [
+    "ocpp>=0.20.0"
+  ],
+  "version": "1.7.6"
+}
